@@ -1,0 +1,34 @@
+Tornado
+=======
+Tornado est une version open source du serveur web extensible et non-bloquant
+ainsi que des outils qui font fonctionner FriendFeed. L'application FriendFeed
+est écrite au moyen d'un framework web qui ressemble un peu à web.py ou webapp
+de Google, mais avec des outils supplémentaires et des optimisations qui tirent
+partie de l'infrastructure non-bloquante sous-jacente.
+
+Documentation et téléchargements sont disponibles à l'adresse
+http://www.tornadoweb.org/
+
+Tornado est distribué sous licence Apache, version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+
+Installation
+============
+Pour installer :
+
+    python setup.py build
+    sudo python setup.py install
+
+Tornado a été testé avec Python 2.5 et 2.6. Pour utiliser toutes les
+fonctionnalités de Tornado, vous devez avoir installé PycURL et une bibliothèque
+JSON comme simplejson.
+
+Sous Mac OS X, vous pouvez installer les paquets grâce à la commande :
+
+    sudo easy_install setuptools pycurl==7.16.2.1 simplejson
+
+Sous Ubuntu Linux, vous pouvez installer les paquets grâce à la commande :
+
+    sudo apt-get install python-pycurl python-simplejson
+
